@@ -51,7 +51,6 @@ body {
 }
 
 .apresentacao {
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,6 +121,7 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
+    object-fit: cover;
 }
 .rodape {
     color: var(--cor-secundaria);
@@ -149,7 +149,7 @@ body {
     }
 
     .apresentacao__imagem {
-        width: auto;
+        width: 100%;
     }
 
     .apresentacao__conteudo__titulo {
