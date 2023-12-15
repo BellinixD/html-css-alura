@@ -147,7 +147,7 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        gap: 25px;
+        gap: 3rem;
     }
 
     .apresentacao__imagem {
