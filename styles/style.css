@@ -151,6 +151,7 @@ body {
 
     .apresentacao__imagem {
         object-fit: cover;
+        position: relative;
         width: 100%;
         height: 100%;
         
