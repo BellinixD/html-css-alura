@@ -16,7 +16,7 @@
 
 body {
     box-sizing: border-box;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--cor-primaria);
     color: white;
 }
@@ -123,6 +123,7 @@ body {
     width: 50%;
     height: 50%;
 }
+
 .rodape {
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
@@ -149,8 +150,9 @@ body {
     }
 
     .apresentacao__imagem {
+        object-fit: cover;
         width: 100%;
-        background-size: cover;
+        height: 100%;
         
     }
 
